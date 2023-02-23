@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "craftobsidian",
-  "version": "1.0.4",
+  "version": "1.0.6",
 
   "name": "Craft Obsidian",
   "description": "This mod adds crafting recipes for obsidian! use buckets of lava and water.",
@@ -24,9 +24,9 @@
   },
 
   "depends": {
-    "fabricloader": ">=0.14.9",
+    "fabricloader": ">=0.14.11",
     "fabric": "*",
-    "minecraft": "~1.19",
+    "minecraft": "~1.19.3",
     "java": ">=17"
   },
   "suggests": {
