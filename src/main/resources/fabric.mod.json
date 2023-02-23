@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "craftobsidian",
+  "version": "1.0.4",
+
+  "name": "Craft Obsidian",
+  "description": "This mod adds crafting recipes for obsidian! use buckets of lava and water.",
+  "authors": [
+    "Exline"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/craft-obsidian",
+    "issues": "https://github.com/jexline/exline-mods-issues/issues"
+  },
+
+  "license": "all-rights-reserved",
+  "icon": "assets/craftobsidian/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.exline.craftobsidian.CraftObsidian"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
